@@ -2,6 +2,32 @@
 
 <img alt="screenshot" src="assets/home.png"/>
 
+<table>
+   <tr>
+     <td colspan="2">
+       DON'T PAY to add your signature to a PDF doc...
+     </td>
+   </tr>
+  <tr>
+    <td>      
+      ❌ no subscription<br/>
+      ❌ no email<br/>
+      ❌ no selling upgrades<br/>
+      ❌ no adds<br/>
+    </td>
+    <td>
+      ✅ open doc<br/>
+      ✅ add signature<br/>
+      ✅ save doc<br/>
+      ✅ BOOM!<br/>
+    </td>
+  </tr>
+</table>
+
+
+
+
+
 ## Downloads 
 <table>
   <tr>
