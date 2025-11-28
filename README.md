@@ -9,8 +9,8 @@
     <td>Mac</td>
   </tr>
   <tr>
-    <td><a href="dist/win/pdf-sig.zip"><img alt="download windows" src="assets/download%20windows.png"/></a></td>
-     <td><a href="dist/mac/pdf_sig-0.1.0.tar.gz"><img alt="download mac" src="assets/download%20mac.png"/></a></td>
+    <td><a href="dist/win/pdf-sig.zip?raw=true"><img alt="download windows" src="assets/download%20windows.png"/></a></td>
+     <td><a href="dist/mac/pdf_sig-0.1.0.tar.gz?raw=true"><img alt="download mac" src="assets/download%20mac.png"/></a></td>
   </tr>
 </table>
 
