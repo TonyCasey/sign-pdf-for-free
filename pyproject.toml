@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pdf_sig"
+version = "0.1.0"
+description = "Add a signature to any PDF doc, without having to pay ridiculous annual fees or monthly subscriptions."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Tony Casey" }]
+dependencies = [
+    "PyMuPDF>=1.24",
+    "Pillow>=10",
+    "customtkinter>=5.2",
+]
+
+[project.scripts]
+pdf_sig = "pdf_sig.gui:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.coverage.run]
+omit = [
+    "src/pdf_sig/gui.py",        # heavy UI layer; covered via manual testing
+    "src/pdf_sig/services.py",   # thin Tk/webbrowser adapters
+]
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    "ignore:.*SwigPyPacked.*:DeprecationWarning",
+    "ignore:.*SwigPyObject.*:DeprecationWarning",
+    "ignore:.*swigvarlink.*:DeprecationWarning",
+]
