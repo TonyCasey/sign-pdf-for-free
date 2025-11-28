@@ -1,4 +1,4 @@
-# Sign PDFs for free
+<a name="pdf-sig"></a># Sign PDFs for free
 
 <img alt="screenshot" src="assets/home.png"/>
 
